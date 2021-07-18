@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Desafio 1 - Landing Page | Hiring Coders</title>
+        <meta charset="UTF-8"/>
+        <meta name="description" content="Desafio Final Front-end"/>
+        <meta name="author" content="Luiz Guilherme"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" type="text/css" href="./CSS/styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600;800&display=swap" rel="stylesheet"> 
+    </head>
+
+    <body>
+        <section class="promo-container" id="section-one">
+            <header class="promo-container-logo" id="logo-one">
+                <img src="./assets/blackFriday2.png" id="logo-bf"/>
+                <img src="./assets/logoGama2.png" id="logo-gama"/>
+            </header>
+            <div class="text-container" id="promo-description">
+                <h1 class="title">Black Friday - Gama Academy</h1>
+                <h2 class ="subtitle">Não fique de fora dessa!</h2>
+                <p id="description">A filial LGVM da Gama Academy estará fazendo uma oferta especial para os participantes do Hiring Coders, por tempo limitado! Confira algumas das promoções de nossos cursos abaixo e faça logo o seu cadastro para saber mais</p>
+            </div>
+            <div class="promotions" id="promotions">
+                <div class="promotion-content">
+                    <h3 class="product-name">Product Design</h3>
+                    <div class="promotion-price">
+                        <p class="fullprice">De: R$4900,00</p>
+                        <p class="newprice">Por:R$3900,00</p>
+                    </div>
+                </div>
+                <div class="promotion-content">
+                    <h3 class="product-name">Dev FullStack</h3>
+                    <div class="promotion-price">
+                        <p class="fullprice">De: R$4900,00</p>
+                        <p class="newprice">Por:R$3900,00</p>
+                    </div>
+                </div>
+                <div class="promotion-content">
+                    <h3 class="product-name">Marketing (Growth)</h3>
+                    <div class="promotion-price">
+                        <p class="fullprice">De: R$4900,00</p>
+                        <p class="newprice">Por:R$3900,00</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="form-container" id="section-two">
+            <div class="form-content" id="form-content">
+                <h3 id ="cadastro">Cadastro</h3>
+                <form action="" id="form">
+                    <input type="text" name="nome" id='inputName' placeholder="digite seu nome"/>
+                    <br>
+                    <input type="text" name="email" id='inputEmail' placeholder="digite seu email"/>
+                    <br>
+                    <input type="submit" value="Cadastrar" inputButton/>
+               </form>
+               <div id="form-msg"></div>
+            </div>
+        </section> 
+    </body>
+    <script type="text/javascript" src="./JS/cadastro.js"></script>
+</html>
